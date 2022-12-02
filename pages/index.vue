@@ -1,9 +1,12 @@
 <template>
-  <Tutorial/>
+  <Form />
 </template>
 
 <script>
+import Form from './Form.vue'
 export default {
-  name: 'IndexPage'
+  components: {
+    Form
+  }
 }
 </script>
